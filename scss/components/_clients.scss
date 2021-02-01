@@ -1,0 +1,60 @@
+.section-client {
+    padding-top: 94px;
+    padding-bottom: 113px;
+  }
+  .section-client {
+    background: $background-color;
+  }
+  .regular-customers {
+    margin-top: 0;
+    font-weight: $bold-font-weight;
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: center;
+  
+    letter-spacing: 0.03em;
+  }
+  .logo-one {
+    width: 44.27px;
+    height: 49.23px;
+  }
+  .logo-two {
+    width: 40px;
+    height: 52px;
+  }
+  .logo-three {
+    width: 41px;
+    height: 42.6px;
+  }
+  .logo-four {
+    width: 79.66px;
+    height: 42.02px;
+  }
+  .logo-five {
+    width: 59px;
+    height: 47px;
+  }
+  .logo-six {
+    width: 88.48px;
+    height: 45.44px;
+  }
+  .link-client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 170px;
+    height: 90px;
+    border-radius: 4px;
+    border: 1px solid $color-icon;
+    fill: $color-icon;
+    transition-property: fill, border-color;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .logotype-link :hover,
+  .logotype-link :focus {
+    fill: $accent-color;
+    border-color: $accent-color;
+  }
+  

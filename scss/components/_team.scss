@@ -1,0 +1,113 @@
+.comands {
+    padding-bottom: 94px;
+    padding-top: 94px;
+    text-align: center;
+  
+    background-color: $background-color-secondare;
+  }
+  
+  .section-tittle {
+    padding-bottom: 50px;
+    margin: 0;
+  
+    font-weight: $bold-font-weight;
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: center;
+  
+    letter-spacing: 0.03em;
+  }
+  
+  .section-works {
+    display: flex;
+  
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .section-works,
+  .section-comand:not(:nth-last-child(1)) {
+    margin-right: 30px;
+  }
+  
+  .section-comand {
+    text-align: center;
+  
+    background: $text-color;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+  .worker {
+    padding-top: 16px;
+    padding-bottom: 30px;
+  }
+  
+  .section-subject {
+    margin-top: 0;
+    margin-bottom: 10px;
+  
+    font-weight: $min-bold-font-weight;
+    font-size: 16px;
+    line-height: 1.19;
+  
+    letter-spacing: 0.03em;
+  }
+  
+  .section-post {
+    margin-bottom: 16px;
+  
+    color: $secondare-text-color;
+    font-size: 16px;
+    line-height: 1.19;
+  
+    letter-spacing: 0.03em;
+  }
+  .comand-social {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .comand-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin: 0;
+    background-color: $text-color;
+    color: $color-icon;
+  
+    transition-property: background-color, color;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .comand-item {
+    margin-right: 10px;
+  }
+  
+  .comand-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+  
+  .comand-link:hover,
+  .comand-link:focus {
+    color: $text-color;
+    background-color: $accent-color;
+  }
+  
+  .comand.item {
+    display: block;
+  }
+  .comand-social {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  
