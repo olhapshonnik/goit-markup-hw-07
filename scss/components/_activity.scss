@@ -6,8 +6,10 @@
   
     list-style: none;
   }
-  .work-list li:not(:last-child) {
-    margin-right: 30px;
+  .work-list li {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   .work-image {
     display: block;

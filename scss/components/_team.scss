@@ -26,8 +26,10 @@
     list-style: none;
   }
   .section-works,
-  .section-comand:not(:nth-last-child(1)) {
-    margin-right: 30px;
+  .section-comand {
+    &:not(:nth-last-child(1)) {
+      margin-right: 30px;
+    }
   }
   
   .section-comand {
@@ -94,13 +96,14 @@
     height: 20px;
     fill: currentColor;
   }
-  
-  .comand-link:hover,
-  .comand-link:focus {
-    color: $text-color;
-    background-color: $accent-color;
+
+  .comand-link {
+    &:hover,
+    &:focus {
+      color: $text-color;
+    background-color: $accent-color;}
   }
-  
+    
   .comand.item {
     display: block;
   }

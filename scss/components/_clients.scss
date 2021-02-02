@@ -1,10 +1,9 @@
 .section-client {
     padding-top: 94px;
     padding-bottom: 113px;
-  }
-  .section-client {
     background: $background-color;
   }
+  
   .regular-customers {
     margin-top: 0;
     font-weight: $bold-font-weight;
@@ -52,9 +51,12 @@
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .logotype-link :hover,
-  .logotype-link :focus {
-    fill: $accent-color;
+  .logotype-link {
+    & :hover,
+    & :focus {
+      fill: $accent-color;
     border-color: $accent-color;
+    }    
   }
+
   

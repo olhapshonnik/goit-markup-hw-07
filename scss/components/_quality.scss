@@ -15,8 +15,10 @@
     list-style: none;
   }
   
-  .feature-caption:not(:last-child) {
-    margin-right: 30px;
+  .feature-caption {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   
   .features-subject {
